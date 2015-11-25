@@ -10,11 +10,6 @@ struct node {
 	node *left;
 	node *right;
 
-	node() {
-		data = 0;
-		left = NULL;
-		right = NULL;
-	}
 };
 
 node *new_node(int x) {
